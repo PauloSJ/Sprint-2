@@ -39,7 +39,6 @@
     margin: 0;
     padding: 0;
     text-align: end;
-    cursor: pointer;
     user-select: none;
     
   }
@@ -47,24 +46,28 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 3vw;
     
 
   }
   .nav-menu{
     display: inline-block;
-    margin: 5px;
+    margin: 5px 10px;
   }
 
   .logo{
     text-align: start;
-    width: 20%;
+    width: auto;
     margin: 10px;
+  }
+  .logo-trampro{
+    width: 15vw;
+
   }
 .Footer{
     background-color:rgb(18, 18, 53);
     width: 100%;
-    padding: 10px 0;
+    padding: 5px 0;
     
     text-align: center;
   }
@@ -75,21 +78,24 @@
   }
   .rodape-bio{
     text-decoration: none;
-    font-size: 3vw;
+    font-size:2vh;
     color: white;
   }
 
   .redes{
-    margin: 10px 10px;
+    margin: 100px 100px;
     
   }
   .redes-lista{
     list-style: none;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
   }
   .pagina-link{
-    display: inline-block;
-    margin: 20px;
+    
+    margin: 20px 0px;
 
 
   }
@@ -103,3 +109,69 @@
 
     
   }
+.redes-logo{
+  width:  3vh;
+  margin: 0px 5px;
+  
+}
+@media (max-width: 630px){
+
+  .Conteudo-imagem{
+    padding-top: 100px;
+
+  }
+  .footer{
+    padding: 0;
+  }
+
+ 
+
+}
+
+@media (max-width: 460px){
+
+  .Conteudo-imagem{
+    padding-top: 80px;
+  }
+  .nav-bar{
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .nav-list{
+    text-align: center;
+
+  }
+  .nav-menu{
+    margin: 5px 2px;
+  }
+
+  .footer{
+  padding: 0px;
+}
+   .pagina-link{
+  padding: 0px 5px;
+  margin: 0px;
+
+}  .redes-logo{
+  width: 2vh;
+}
+   .rodape-bio{
+  font-size: 1.5vh;
+ }
+}
+@media (max-width: 200px){
+
+  .Conteudo-imagem{
+    display: none;
+  }
+  .nav-bar{
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  .nav-list{
+    text-align: center;
+
+  }
+
+
+}
