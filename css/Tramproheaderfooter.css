@@ -78,7 +78,7 @@
   }
   .rodape-bio{
     text-decoration: none;
-    font-size:2vh;
+    font-size:1.5vw;
     color: white;
   }
 
@@ -89,8 +89,8 @@
   .redes-lista{
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: end;
     padding-right: 40px;
   }
   .pagina-link{
@@ -110,32 +110,24 @@
     
   }
 .redes-logo{
-  width:  3vh;
+  width:  2vw;
   margin: 0px 5px;
   
 }
-@media (max-width: 630px){
+@media (max-width: 780px){
 
   .Conteudo-imagem{
-    padding-top: 100px;
+    padding-top: 90px;
 
   }
   .footer{
     padding: 0;
   }
 
- 
-
-}
-
-@media (max-width: 460px){
-
-  .Conteudo-imagem{
-    padding-top: 80px;
-  }
   .nav-bar{
     max-width: 70%;
     margin: 0 auto;
+    padding-top: 0px;
   }
   .nav-list{
     text-align: center;
@@ -149,16 +141,65 @@
   padding: 0px;
 }
    .pagina-link{
-  padding: 0px 5px;
+  padding: 0px 2px;
   margin: 0px;
 
 }  .redes-logo{
-  width: 2vh;
+  width: 3vw;
 }
    .rodape-bio{
-  font-size: 1.5vh;
+  font-size: 2vw;
  }
+ .redes.redes-lista{
+  align-items: center;
+  justify-content: center;
+ }
+ .redes-lista{
+  align-items: center;
+  justify-content: center;
 }
+
+
+}
+
+@media (max-width: 460px){
+
+  .Conteudo-imagem{
+    padding-top: 55px;
+  }
+  .nav-bar{
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 0px;
+  }
+  .nav-list{
+    text-align: center;
+
+  }
+  .nav-menu{
+    margin: 5px 2px;
+  }
+
+  .footer{
+  padding: 0px;
+}
+   .pagina-link{
+  padding: 0px 2px;
+  margin: 0px;
+
+}  .redes-logo{
+  width: 4vw;
+}
+   .rodape-bio{
+  font-size: 3vw;
+
+ }
+ .redes-lista{
+  align-items: center;
+  justify-content: center;
+}
+
+   
 @media (max-width: 200px){
 
   .Conteudo-imagem{
@@ -172,6 +213,11 @@
     text-align: center;
 
   }
+  .redes-lista{
+    align-items: center;
+    justify-content: center;
+  }
 
 
+}
 }
