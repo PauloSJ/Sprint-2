@@ -135,6 +135,21 @@ body {
   justify-content: center;
   align-items: center;
 }
+.metodopaypal{
+    display: flex;
+    flex-direction: column;
+    width: 382px;
+    height: 122px;
+    padding-top: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: rgb(249, 249, 249);
+    justify-content: center;
+    align-items: center;
+  }
+
+
  
 .card-logos {
   display: flex;
